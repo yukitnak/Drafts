@@ -1,0 +1,74 @@
+    <html>
+  <head>
+    <title>Ana Rodrigues</title>
+
+    <style>
+      body {
+        text-align: center;
+        background: url("fundo.png");
+        background-size: 100%;
+        color: white;
+        font-family: Arial;
+      }
+      .retrato {
+        width: 150px;
+        border-radius: 150px;
+        border: 5px solid white;
+        margin-top: 40px;
+        margin-bottom: 10px;
+      }
+      .logo {
+        width: 80px;
+        margin-top: 40px;
+      }
+      .icone {
+        width: 15px;
+      }
+      h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 30px;
+      }
+      h2 {
+        margin-top: 0;
+        margin-bottom: 30px;
+        font-size: 22px;
+        font-weight: normal;
+      }
+      h1 {
+        color: red;
+      }
+      h2 {
+        color: blue;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+        background: rgb(138, 114, 114);
+        width: 200px;
+        height: 35px;
+        line-height: 35px;
+        display: inline-block;
+        margin-bottom: 10px;
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="retrato.png" class="retrato" />
+    <h1>Ana Rodrigues</h1>
+    <h2>Software Engineer</h2>
+
+    <a href="http://google.com">
+      <img class="icone" src="whatsapp.png" />
+      Fale comigo :)</a
+    >
+    <br />
+    <a href="http://google.com">
+      <img class="icone" src="linkedin.png" />
+      Meu linkedin</a
+    >
+    <br />
+    <img src="driven.png" class="logo" />
+  </body>
+</html>
